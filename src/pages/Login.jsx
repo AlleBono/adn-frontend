@@ -15,8 +15,8 @@ export default function Login({ onLogin }) {
     <div className="min-h-screen flex items-center justify-center" style={{ background: "linear-gradient(135deg,#FF9500,#ffb347)" }}>
       <div className="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-sm mx-4">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-3" style={{ background: "#FF9500" }}>
-            <span className="text-white font-black text-2xl">A</span>
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-3 overflow-hidden" style={{ background: "#FF9500" }}>
+            <img src="/logo.jpg" alt="ADN" className="w-14 h-14 object-contain" />
           </div>
           <h1 className="text-3xl font-black text-gray-900">ADN</h1>
           <p className="text-gray-500 text-sm mt-1">POS web para tu negocio</p>
