@@ -21,12 +21,12 @@ export default function Layout({ children, onLogout }) {
   const Sidebar = () => (
     <div className="flex flex-col h-full w-56" style={{ background: "#FF9500" }}>
       <div className="p-5 flex items-center gap-3">
-        <div className="w-9 h-9 bg-white rounded-xl flex items-center justify-center">
-          <span className="font-black text-xl" style={{ color: "#FF9500" }}>A</span>
+        <div className="w-9 h-9 bg-white rounded-xl flex items-center justify-center overflow-hidden">
+          <img src="/logo.jpg" alt="ADN" className="w-7 h-7 object-contain" />
         </div>
         <div>
           <p className="font-black text-white text-xl leading-none">ADN</p>
-          <p className="text-orange-200 text-xs">POS Colombia</p>
+          <p className="text-orange-200 text-xs">App Web Colombia</p>
         </div>
       </div>
       <nav className="flex-1 px-3 space-y-1">
@@ -93,7 +93,9 @@ export default function Layout({ children, onLogout }) {
               </svg>
               <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-orange-500" />
             </button>
-            <div className="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style={{ background: "#FF9500" }}>A</div>
+            <div className="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold" style={{ background: "#FF9500" }}>
+              <img src="/logo.jpg" alt="Logo" className="w-full h-full object-contain" />
+            </div>
           </div>
         </header>
 
